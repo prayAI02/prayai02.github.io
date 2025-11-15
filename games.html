@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Games | Jimin</title>
+  <style>
+    :root{ --accent:#2a4d8f; --bg:#f5f7fa; --card:#fff; --muted:#777;}
+    body{margin:0;font-family:Inter, "Segoe UI", Arial;background:var(--bg);color:#222}
+    header{background:#222;color:#fff;padding:2.5rem 1rem;text-align:center}
+    main{max-width:980px;margin:2rem auto;padding:1rem}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px}
+    .card{background:var(--card);padding:18px;border-radius:12px;box-shadow:0 6px 18px rgba(20,30,40,0.06)}
+    .title{color:var(--accent);font-weight:700;margin:0 0 .5rem}
+    .meta{color:#555;margin:6px 0}
+    .btn{display:inline-block;padding:.45rem .9rem;border-radius:8px;background:var(--accent);color:#fff;text-decoration:none;margin-right:8px}
+    .back{display:inline-block;margin-top:16px;color:var(--accent);text-decoration:none}
+    footer{color:var(--muted);text-align:center;padding:2rem 0}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🎮 Games</h1>
+    <p>Playable demos and small experiments.</p>
+  </header>
+
+  <main>
+    <div class="grid">
+      <!-- Bingo -->
+      <div class="card">
+        <p class="title">Bingo Game</p>
+        <p class="meta">Technologies: HTML, CSS, JavaScript</p>
+        <p>Simple 5×5 bingo. Click to mark cells. Live demo hosted separately.</p>
+        <a class="btn" href="https://prayai02.github.io/Bingo_game/" target="_blank">Play</a>
+        <a class="btn" href="https://github.com/prayAi02/Bingo_game" target="_blank" style="background:#555">Source</a>
+      </div>
+
+      <!-- Placeholder for next games -->
+      <div class="card">
+        <p class="title">Puzzle (coming)</p>
+        <p class="meta">Technologies: HTML, CSS, JavaScript</p>
+        <p>Planned puzzle game — coming soon.</p>
+      </div>
+
+      <div class="card">
+        <p class="title">Memory (planned)</p>
+        <p class="meta">Technologies: HTML, CSS, JavaScript</p>
+        <p>Memory / matching game idea.</p>
+      </div>
+    </div>
+
+    <a class="back" href="apps.html">← Back to Apps</a>
+  </main>
+
+  <footer>© 2025 Jimin Yun</footer>
+</body>
+</html>
