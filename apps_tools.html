@@ -9,9 +9,11 @@
     body{margin:0;font-family:Inter, "Segoe UI", Arial;background:var(--bg);color:#222}
     header{background:#222;color:#fff;padding:2.5rem 1rem;text-align:center}
     main{max-width:980px;margin:2rem auto;padding:1rem}
-    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px}
     .card{background:var(--card);padding:18px;border-radius:12px;box-shadow:0 6px 18px rgba(20,30,40,0.06)}
-    .btn{display:inline-block;padding:.45rem .9rem;border-radius:8px;background:var(--accent);color:#fff;text-decoration:none;margin-top:8px}
+    .title{color:var(--accent);font-weight:700;margin:0 0 .5rem}
+    .meta{color:#555;margin:6px 0}
+    .btn{display:inline-block;padding:.45rem .9rem;border-radius:8px;background:var(--accent);color:#fff;text-decoration:none;margin-right:8px}
     .back{display:inline-block;margin-top:16px;color:var(--accent);text-decoration:none}
     footer{color:var(--muted);text-align:center;padding:2rem 0}
   </style>
@@ -19,20 +21,30 @@
 <body>
   <header>
     <h1>🛠 Tools</h1>
-    <p>Small utilities and web tools.</p>
+    <p>Small utilities and helpful mini-tools.</p>
   </header>
 
   <main>
     <div class="grid">
+
+      <!-- Calculator -->
       <div class="card">
-        <p style="font-weight:700;color:var(--accent);margin:0 0 .5rem">Calculator</p>
-        <p>Simple calculator UI — coming soon.</p>
+        <p class="title">Calculator</p>
+        <p class="meta">Technologies: HTML, CSS, JavaScript</p>
+        <p>Basic 4-function calculator for quick math.</p>
+        <a class="btn" href="apps_tools_Calculator/index.html" target="_blank">Open</a>
+        <a class="btn" href="https://github.com/prayAi02/apps_tools_Calculator" target="_blank" style="background:#555">Source</a>
       </div>
 
+      <!-- Stopwatch -->
       <div class="card">
-        <p style="font-weight:700;color:var(--accent);margin:0 0 .5rem">Timer</p>
-        <p>Timer / Pomodoro tool — planned.</p>
+        <p class="title">Stopwatch</p>
+        <p class="meta">Technologies: HTML, CSS, JavaScript</p>
+        <p>Start, stop, and reset — simple and clean stopwatch.</p>
+        <a class="btn" href="apps_tools_Stopwatch/index.html" target="_blank">Open</a>
+        <a class="btn" href="https://github.com/prayAi02/apps_tools_Stopwatch" target="_blank" style="background:#555">Source</a>
       </div>
+
     </div>
 
     <a class="back" href="apps.html">← Back to Apps</a>
